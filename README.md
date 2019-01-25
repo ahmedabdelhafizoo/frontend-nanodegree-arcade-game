@@ -14,7 +14,7 @@ just click on the arrows of your keyboard:
     
 The game ends when all tries ends or if you reach to the water 10 times.
 
-##Play Now
+## Play Now
 https://ahmedabdelhafizoo.github.io/frontend-nanodegree-arcade-game/
 
 ## Challenge
