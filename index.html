@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <span>
+            <span>Score :&nbsp;</span><span id="score">0</span>
+        </span>
+        <span>
+            <i class="fa fa-heart" id="first-try"></i>
+            <i class="fa fa-heart" id="second-try"></i>
+            <i class="fa fa-heart" id="third-try"></i>
+            <i class="fa fa-heart" id="last-try"></i>
+        </span>
+        <span>Goal : 10</span>
+    </div>
+    
+    <div id="result" class="result">
+        <div class="container">
+            <i class="fa fa-check-circle" id="result-icon"></i>
+            <h3 id="message-result"></h3>
+            <button id="play-again">Play again!</button>
+        </div>
+    </div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
